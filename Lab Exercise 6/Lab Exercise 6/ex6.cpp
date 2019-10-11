@@ -10,16 +10,21 @@
 using namespace std;
 
 int main() {
-    ofstream myfile;
-    myfile.open ("ex6output.txt");
+    ofstream myfile("ex6output.txt");
     srand(static_cast<unsigned int>(time(0)));
-    char character = 0;
+    char character;
+    int john;
+    
+    if (!myfile.is_open())
+    {
+        cout << "File was not opened" << endl;
+    }
     
     for (int number =0; number < 25; number++)
     {
-        character = (rand() % 50) + 50;
+        character = ((rand() % 50+1) + 50);
+        john = ((rand() % 50+1) + 50);
         myfile << character << "\n";
-        cout << character << endl; //This is just for me to see the output
+        cout << john << endl; //This is just for me to see the output of numbers to check 50-100 inclusive
     }
-    myfile.close();
 }
