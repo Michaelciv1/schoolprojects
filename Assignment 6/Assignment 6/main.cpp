@@ -4,6 +4,8 @@
 //  Copyright © 2019 Michael Wallerius. All rights reserved.
 
 #include <iostream>
+#include <cstdlib>
+#include <iomanip>
 #include <fstream>
 #include <string>
 
