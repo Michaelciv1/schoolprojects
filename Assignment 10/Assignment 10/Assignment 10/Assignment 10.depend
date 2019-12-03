@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1575370299 source:c:\users\michael-gpc\documents\code blocks work\assignment 10\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<cstdlib>
+	<string>
+
