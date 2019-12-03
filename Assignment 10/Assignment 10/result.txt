@@ -1,0 +1,5 @@
+Stock: CAT
+Current Date: 2019-11-26
+Current Close: 146.09
+Market Days
+-----------
