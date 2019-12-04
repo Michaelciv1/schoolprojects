@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1575455499 source:c:\users\michael-gpc\documents\code blocks work\lab 11\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<algorithm>
+	<sstream>
+
